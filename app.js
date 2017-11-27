@@ -10,7 +10,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a,b){
   var add = a + b;
-  var answer = [add, 'The sum of ' + a + ' and ' + b + ' is ' + add + '.']
+  var answer = [add, 'The sum of ' + a + ' and ' + b + ' is ' + add + '.'];
   return answer;
 }
 
@@ -29,7 +29,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a,b){
   var product = a * b;
-  var answer = [product, 'The product of ' + a + ' and ' + b + ' is ' + product + '.']
+  var answer = [product, 'The product of ' + a + ' and ' + b + ' is ' + product + '.'];
   return answer;
 }
 
@@ -57,7 +57,7 @@ function sumAndMultiply(a,b,c){
   var myProd = multiply(a,b)[0];
   var finalProd = multiply(myProd,c)[0];
 
-  var totalAnswers = [finalSum, finalProd, a + ' and ' + b + ' and ' + c + ' sum to ' + finalSum + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + finalProd + '.']
+  var totalAnswers = [finalSum, finalProd, a + ' and ' + b + ' and ' + c + ' sum to ' + finalSum + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + finalProd + '.'];
 
   return totalAnswers;
 
@@ -106,11 +106,11 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
-// Write your code here
+//Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
   var product = multiply(testArray[0],testArray[1])[0]; //multiply() from q2 and [0] is a*b
   var productFinal = multiply(product,testArray[2])[0]; //productFinal=multiply the value of c by the product of (a,b)
-  var final = [productFinal, 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of 24.']
+  var final = [productFinal, 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of 24.'];
     return final;
 }
 
